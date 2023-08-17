@@ -14,6 +14,8 @@
 		BD95BBD52A8E5EBB006FB88C /* workoutFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95BBD42A8E5EBB006FB88C /* workoutFeatureTests.swift */; };
 		BD95BBDF2A8E5EBB006FB88C /* workoutFeatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95BBDE2A8E5EBB006FB88C /* workoutFeatureUITests.swift */; };
 		BD95BBE12A8E5EBB006FB88C /* workoutFeatureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95BBE02A8E5EBB006FB88C /* workoutFeatureUITestsLaunchTests.swift */; };
+		BD95BBEE2A8E5EF1006FB88C /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95BBED2A8E5EF1006FB88C /* NewToDoView.swift */; };
+		BD95BBF02A8E5F15006FB88C /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95BBEF2A8E5F15006FB88C /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BD95BBDA2A8E5EBB006FB88C /* workoutFeatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workoutFeatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD95BBDE2A8E5EBB006FB88C /* workoutFeatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutFeatureUITests.swift; sourceTree = "<group>"; };
 		BD95BBE02A8E5EBB006FB88C /* workoutFeatureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutFeatureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD95BBED2A8E5EF1006FB88C /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD95BBEF2A8E5F15006FB88C /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				BD95BBC32A8E5EB9006FB88C /* workoutFeatureApp.swift */,
 				BD95BBC52A8E5EB9006FB88C /* ContentView.swift */,
+				BD95BBED2A8E5EF1006FB88C /* NewToDoView.swift */,
+				BD95BBEF2A8E5F15006FB88C /* ToDoItem.swift */,
 				BD95BBC72A8E5EBA006FB88C /* Assets.xcassets */,
 				BD95BBC92A8E5EBA006FB88C /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD95BBEE2A8E5EF1006FB88C /* NewToDoView.swift in Sources */,
 				BD95BBC62A8E5EB9006FB88C /* ContentView.swift in Sources */,
+				BD95BBF02A8E5F15006FB88C /* ToDoItem.swift in Sources */,
 				BD95BBC42A8E5EB9006FB88C /* workoutFeatureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"workoutFeature/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J99693P75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"workoutFeature/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J99693P75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
